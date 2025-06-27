@@ -13,6 +13,7 @@ void addMoney(){
     m.unlock();
 }
 
+
 int main(){
     thread t1(addMoney);
     thread t2(addMoney);
